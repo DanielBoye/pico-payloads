@@ -1,10 +1,15 @@
 # pico-payloads
 
-Payloads for the Raspberry Pi Pico
+## Before using the payloads
 
-It should already have been flashed wih adafruits circuit python file, so it can interpert ducky script to python. 
-
+Your Pico should already have been flashed with the adafruit circuit python file, so it can interpret ducky script to python. 
 Remember to also make the Pico an HID device, or else it will not work. 
 
+Watch a tutorial on it here: https://www.youtube.com/watch?v=e_f9p-_JWZw&t=917s
 
-Download the .dd file and add it to your Raspberry Pi Pico. 
+## How to use the payloads
+Download the .dd file and add it into your root directory in the Raspberry Pi Pico. It will run as soon as the .dd file has been copied over, so remember to be quick to plug the usb out. 
+
+To edit the payload, download the .txt file. Make your changes there and save it as an "payload.dd" file. Remember to click the "All files" on the file type while saving the notepad note, or else it will save as an .txt and not work.
+
+This is for educational purposes only!!!
